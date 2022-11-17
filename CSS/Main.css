@@ -1,17 +1,33 @@
-/* body {
-    background-color: #000;
-    color: #c9d1d9;
-} */
 .wrapper .container{
     max-width:1000px;
     margin:0px auto;
-    padding:80px 0px;
+    padding:40px 40px;
 }
 .profile_avatar{
-    max-width: 450px;
-    min-width: 128px;
+    max-width: 320px;
+    min-width: 120px;
     width: 100%;
 }
 .link_image{
     width: 200px;
+}
+.link_text{
+    font-size: large;
+}
+.non_mark_list{
+    list-style: none;
+    margin: 10px;
+}
+.topics_table{
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px transparent;
+    border-collapse: separate;
+    border-spacing: 10px 10px;
+}
+.topics_table_row{
+    text-align: left;
+}
+.important_span{
+    font-weight: bold;
 }
